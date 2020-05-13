@@ -1,0 +1,333 @@
+/* Parámetros Globales de Estilo */
+
+/*Etiquetas de Títulos*/
+h1, h2, h3 {font-family: 'Ubuntu', sans-serif;}
+
+/*Etiquetas Subtítulos, Párrafos y Enlaces*/
+h4, h5, h6, p, a { font-family: 'Ruda', sans-serif;}
+
+
+
+/* Estilos propios del sitio web */
+
+aside#menu-cortina {
+    width: 100%;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: fixed;
+
+    top: 0;
+    right: -100%;
+    z-index: 99991;
+
+    background: #93E5DA;
+}
+
+aside#menu-cortina a#abrir {}
+aside#menu-cortina a#abrir i {}
+aside#menu-cortina a#abri:hover {}
+aside#menu-cortina a#abrir:hover i {}
+
+
+aside#menu-cortina a#cerrar {}
+aside#menu-cortina a#cerrar i {}
+aside#menu-cortina a#cerrar:hover {}
+aside#menu-cortina a#cerrar:hover i {}
+
+
+
+aside#menu-cortina nav#menu-idiomas-movil {}
+aside#menu-cortina nav#menu-idiomas-movil a {}
+aside#menu-cortina nav#menu-idiomas-movil a:hover {}
+aside#menu-cortina nav#menu-idiomas-movil a#idioma-activo-movil {}
+aside#menu-cortina nav#menu-idiomas-movil span {}
+
+
+aside#menu-cortina nav#menu-principal-movil {}
+aside#menu-cortina nav#menu-principal-movil a {}
+aside#menu-cortina nav#menu-principal-movil a:hover {}
+
+
+header  {
+    width: 700px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    z-index: 99990800;
+
+    background: rgb(255, 254, 254);
+}
+
+header article {
+    width: 700px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+
+
+header article a#logo {  
+    width: 150px;
+    height: 40px;
+    display: block;
+    margin: 27px 27px 27px 0;
+    float: left;
+    position: relative;
+
+    transition: all 0.3s ease-out;
+}
+
+header article a#logo:hover {
+    opacity: 0.7;
+    transition: all 0.3s ease-out;
+}
+
+header article a#logo img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+
+header article nav#menu-principal {
+    width: 562px;
+    height: 47px;
+    display: block;
+    margin: 54px 0 0 0;
+    float: right;
+    position: relative;
+}
+
+header article nav#menu-principal a {
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0;
+    float: left;
+    position: relative;
+    padding: 14px 15px;
+    text-decoration: none;
+    color: #75a7cf;
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.9em;
+    line-height: 1em;
+    letter-spacing: -0.02em;
+    transition: all 0.3s ease-out;
+}
+
+header article nav#menu-principal a:hover {
+    color: rgb(78, 114, 121);
+    background: #dfd5e7;
+    transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+
+
+header article nav#manu-idiomas {
+    width: 100px;
+    height: 30px;
+    display: block;
+    margin: 10px 0 0 0;
+    float: right;
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+header article nav#menu-idiomas a {
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0;
+    float: left;
+    position: relative;
+    padding: 1px 9px;
+    text-decoration: none;
+    color: #222120;
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.9em;
+    line-height: 1em;
+    letter-spacing: -0.02em;
+    transition: all 0.3s ease-out;
+}
+header article nav#menu-idiomas a:hover {
+    color: #333;
+    border-bottom: solid 2px #333;
+    transition: all 0.3s ease-out;
+}
+header article nav#menu-idiomas a#idioma-activo {
+    color: #333;
+    border-bottom: solid 2px #333;
+    transition: all 0.3s ease-out;
+}
+header article nav#menu-idiomas span {
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0;
+    float: left;
+    position: relative;
+    font-weight: 800;
+}
+
+header article nav#menu-redes-sociales {
+    width: 100px;
+    height: 30px;
+    display: block;
+    margin: 10px 0 0 0;
+    float: right;
+    position: relative;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+header article nav#menu-redes-sociales a {
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 3px;
+    float: left;
+    position: relative;
+    padding: 0;
+    text-decoration: none;
+    background: #c2a6f7;
+    padding: 6px 8px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 1em;
+    border-radius: 50%;
+    letter-spacing: -0.02em;
+    transition: all 0.3s ease-out;
+}
+header article nav#menu-redes-sociales a i {
+    color: #fff;
+    transition: all 0.3s ease-out;
+}
+header article nav#menu-redes-sociales a:hover {
+    background: #333;
+    transition: all 0.3s ease-out;
+}
+header article nav#menu-redes-sociales a:hover i {
+    color: #cc7901;
+    transition: all 0.3s ease-out;
+}
+
+main {
+    width: 70%;
+    height: 150px;
+    display: block;
+    margin: 100px auto;
+    float: left;
+    margin: 100px auto;
+    position: relative;
+}
+
+main section#fila-img-fondo {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    
+    background: url("img/ale-niebles-fondo.jpg") no-repeat top center fixed;
+    background-size: cover;
+}
+main section#fila-img-fondo article {
+    width: 700px;
+    height: 750px;
+    display: block;
+    margin: 100px 0px;
+    float: left;
+    position: relative;
+}
+
+main section{
+    width: 700px;
+    height: 750px;
+    display: block;
+    margin: 100px auto;
+    float: left;
+    position: relative;
+}
+
+main article{
+    width: 700px;
+    height: 750px;
+    display: block;
+    margin: 100px auto;
+    float: left;
+    position: relative;
+}
+
+main section#fila-img-fondo article h2 {
+    width: 700px;
+    height: 750px;
+    display: block;
+    margin: 100px auto;
+    float: left;
+    position: relative;
+    padding: 100px;
+}
+
+main section#fila-img-fondo article h3 {
+    width: 700px;
+    height: 750px;
+    display: block;
+    margin: 100px auto;
+    float: left;
+    position: relative;
+    padding: 100px;
+}
+
+main section#fila article h3{
+    width: 700px;
+    height: 750px;
+    display: block;
+    margin: 100px auto;
+    float: left;
+    position: relative;
+    padding: 100px;
+}
+
+main section#fila-img-fondo article p {
+    width: 700px;
+    height: 750px;
+    display: block;
+    margin: 100px auto;
+    float: left;
+    position: relative;
+}
+
+
+
+
+footer {
+    width: 700px;
+    height: 350px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+
+
+
+
+
